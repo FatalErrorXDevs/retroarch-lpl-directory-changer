@@ -2,8 +2,11 @@
   "name": "retroarch-lpl-directory-changer",
   "version": "1.0.0",
   "description": "Batch rename the folder attribute for retroarch playlists",
-  "main": "index.js",
+  "main": "./src/index.js",
   "author": "FatalErrorX",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
 }
